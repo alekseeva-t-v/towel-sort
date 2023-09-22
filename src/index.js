@@ -1,5 +1,9 @@
-// You should implement your task here.
-
+/**
+ * Сортирует массив, содержащий вложенные массивы.
+ *
+ * @param {array<array>} matrix Массив, содержащий вложенные массивы, который необходимо отсортировать.
+ * @return {array} преобразованный массив.
+ */
 module.exports = function towelSort(matrix) {
     let res = [];
     if (!matrix) {
